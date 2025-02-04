@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC BUS PASS</title>
+</head>
+
+<body>
+    <center>
+        <img src="./images/Screenshot 2025-02-04 135633.png" alt="">
+    </center>
+
+    <fieldset>
+        <legend><b>Applicant Details</b></legend>
+        <form action="./successfull.html" method="get">
+            <label for="name"><b>Name:-</b> </label>
+            <input type="name" id="name" maxlength="20" pattern="[a-zA-Z]+" title="Enter only alphabets without space"  required>
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="father"><b>Father's /Guardian's Name:-</b></label>
+            <input type="name" id="father" maxlength="20" pattern="[a-zA-Z]+" title="Enter only alphabets without space" required>
+            <br><br>
+            <label for="dob"><b>Date of birth</b></label>
+            <input type="date" name="" id="">
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="gender"><b>Gender : </b></label>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br><br>
+
+            <label for="age"><b>Age as on :</b></label>
+            <input type="datetime" pattern="(?=.*[0-9])(?=.*[/])">
+
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+
+            <label for="aadhar"><b>Aadhaar No:-</b></label>
+            <input type="aadhar" id="aadhar" pattern="[0-9]+" minlength="12" maxlength="12" required>
+            <br><br>
+
+            <label for="number"><b>Whatsapp No:-</b></label>
+            <input type="phno" id="number" minlength="10" maxlength="10" pattern="[0-9]+"
+                title="please Enter valide number">
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+
+            <label for="email"><b>E-mail id:-</b></label>
+            <input type="email" name="email" id="email" pattern=".*@(gmail\.com|outlook\.com|yahoo\.in)$" title="Enter valird email id" required>
+            <br><br>
+
+            <label for="photo"><b>Photo:-</b></label>
+            <input type="file">
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+        <legend><b>Residential Address Details</b></legend>
+        <label for="address"><b>Applicant's Address:-</b></label>
+        <textarea name="address" id="address"></textarea>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+
+        <label for="dist"><b>District:-</b></label>
+        <select name="dist" id="dist">
+            <option value="Hydrabad">Hydrabad</option>
+        </select>
+        <br><br>
+        <label for="man"><b>Mandal:-</b></label>
+        <select name="man" id="man">
+            <option value="Hydrabad">Hydrabad</option>
+        </select>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+
+        <label for="village"><b>Village</b></label>
+        <select name="village" id="village">
+            <option value="hydrabad">Hydrabad</option>
+        </select>
+
+        <br><br>
+        <label for="pin"><b>Pincode:-</b></label>
+        <input type="pincode" id="pin" pattern="[0-9]+" minlength="6" maxlength="6">
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+        <legend><b>Pass type details</b></legend>
+        <label for="city"><b>City:-</b></label>
+        <select name="city" id="city">
+            <option value="hydrabad">Hydrabad</option>
+            <br><br>
+        </select>
+        <br><br>
+        <label for="pass"><b>Pass type:-</b></label>
+        <select name="pass" id="pass">
+            <option value="pass">GREATER PASS</option>
+            <option value="pass">ORDINARY PASS</option>
+            <option value="pass">METRO EXPRESS PASS</option>
+        </select>
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+        <legend><b>Mode of payment & pass collection</b></legend>
+        <label for="payment"><b>Payment mode:-</b></label>
+        <select name="payment" id="payment">
+            <option value="payment at center">Payment at center</option>
+        </select><br><br>
+
+        <label for="pass"><b>Pass Delivery Mode:-</b></label>
+        <select name="pass" id="pass">
+            <option value="">At center</option>
+        </select><br><br>
+
+        <label for="one"><b>Center at ehich you wnat to collect pass:-</b></label>
+        <select name="one" id="one">
+            <option value="one">KPHP</option>
+            <option value="one">ECIL<ption>
+            <option value="one">MEHADHIPATNAM</option>
+            <option value="one"></option>
+        </select>
+    </fieldset>
+    <center>
+        <img src="./images/Screenshot 2025-02-04 160116.png" alt="">
+        <br>
+        <input type="text" pattern="jvt7fQ" required>
+        <br><br>
+        <BUtton>submet</BUtton>
+    </center>
+    </form>
+</body>
+
+</html>
